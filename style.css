@@ -1,0 +1,103 @@
+*{
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;  
+}
+
+body{
+  background: #b0bec5;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-style{
+    margin: 0px 20px;
+    font-size: 30px;
+    margin-top: 30px;
+    background-color:#d7ccc8 ;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 3px rgb(20, 35, 104);
+    padding: 10px 10px;
+    
+}
+
+
+.img-perfil{
+  border-radius: 90%;
+  border: transparent thin solid;
+  background-size: auto;
+  overflow-x: hidden;
+  width: 50%;
+  box-shadow: 1px 1px 3px black;
+
+}
+
+.container-center{
+  align-items: center;  
+  height: 10em;
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  margin-right: -50%;
+    
+}
+.container-left{
+  position: relative;  
+  padding-bottom: 30px;
+  width: 90%;
+  height: 80%;
+  margin: 10px 20px;
+}
+
+.container-style p{
+  text-align: justify;
+  font-size: 25px;
+}
+
+.container-right{
+  position: relative;  
+  padding-top: 130px;
+  padding-left : 30px;
+  width: 70%;
+  height: 30%;
+  margin: 10px 20px;
+}
+
+.container-right-list{
+  font-size: 25px;
+}
+
+.container-up{
+  position: relative;  
+  padding-top: 50%;
+  right: 400px;
+  width: 100%;
+  height: 30%;
+  margin: 10px 20px
+}
+
+.container-down{
+  position: relative;  
+  padding-top: 40%;
+  right: 70px;
+  height: 30%;
+  margin: 30px 60px;
+}
+
+.container-down a i{
+  margin: 20px 0px;
+}
+
+.container-style h2{
+  font-size: x-large;
+}
